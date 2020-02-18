@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/App.css';
-import './styles/experience.css';
+import '../styles/App.css';
+import '../styles/experience.css';
 import ReactDOM from 'react-dom';
 import {SAS} from './sas.js';
 import {TownOf} from './toch.js';

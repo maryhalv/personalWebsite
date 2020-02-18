@@ -99,7 +99,7 @@ cursor: pointer;
 #d-headshot {
   width: 21.68rem;
   height: 14.5rem;
- background-image: url(../headshot.JPG);
+ background-image: url(../images/headshot.JPG);
  background-repeat: none;
  margin: 4rem auto 0 auto;
 z-index: 2;
@@ -117,7 +117,7 @@ position: relative;
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-image: url(../flowers.jpg);
+  background-image: url(../images/flowers.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #2E1C6D;
