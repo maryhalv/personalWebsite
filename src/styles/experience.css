@@ -1,0 +1,37 @@
+#h-experience {
+    margin: 4rem auto 2rem auto;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+#sas-tile {
+        width: 40rem;
+        margin: 10% auto auto auto;
+        background: white;
+        color: black;
+        text-align: left;
+        padding: 0.5rem 2rem 0.5rem 2rem;
+        border: solid 1px black;
+}
+
+#toch-tile {
+        width: 40rem;
+         margin: 10% auto auto auto;
+            background: white;
+            color: black;
+            text-align: left;
+            padding: 0.5rem 2rem 0.5rem 2rem;
+            border: solid 1px black;
+}
+
+#d-tile-ex {
+    width: 15rem;
+    margin: 1rem auto 0 2rem;
+    background: white;
+    color: black;
+    display: inline-block;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: solid 1px black;
+}

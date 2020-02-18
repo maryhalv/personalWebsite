@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#d-banner {
+  width: 100%;
+  height: 6.9rem;
+ /* background-color: #7BAEE6; */
+  background-color: lightgray;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.h-title {
+text-align: left;
+width: 100%;
+margin-top: 0;
+padding-top: 0.5rem;
+padding-left: 2rem;
+margin-bottom: 1rem;
+}
+
+h1.h-title:hover{
+cursor: pointer;
+font-style: italic;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Source Sans Pro', Arial;
+}
+
+#d-page {
+  background-color: #2E1C6D;
+  /* need to make extend to the bottom of the page */
+  height:50rem;
+  width: 100%;
+  z-index: 0;
+  position: relative;
+}
+
+#d-navigation {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    /*bottom: 0; */
+    width: 100%;
+}
+button.b-section:hover {
+font-weight: bold;
+cursor: pointer;
+}
+
+.b-section {
+    width: 33.33%;
+    border: none;
+    background-color: white;
+    font-family: 'Source Sans Pro', Arial;
+    font-size: 1.125rem;
+    text-align: center;
+    height: 3rem;
+     background-color: #ccccff;
+}
+
+#d-headshot {
+  width: 21.68rem;
+  height: 14.5rem;
+ background-image: url(../headshot.JPG);
+ background-repeat: none;
+ margin: 4rem auto 0 auto;
+z-index: 2;
+position: relative;
+}
+
+#d-flowers {
+  z-index: 1; 
+  position: relative;
+}
+
+#d-section {
+  margin: 0 auto 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../flowers.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #2E1C6D;
+}
+
+#d-intro {
+  margin: 3.5rem auto 0 auto;
+  color: black;
+  font-size: 1.125rem;
+  display: flex; 
+  flex-direction: column;
+  width: auto;
+  text-align: center;
+  padding-bottom: 0rem 2rem 0.5rem 2rem;
+  z-index: 2;
+  position: relative;
+  background-color: lightgray;
+}
+
+#p-intro {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#d-tile {
+    width: 15rem;
+    margin: 1rem auto 0 auto;
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+#d-tile-ed {
+        width: 15rem;
+        margin: 1rem auto 0 auto;
+        background: white;
+        color: black;
+        text-align: center;
+        padding: 0.5rem 2rem 0.5rem 2rem;
+        border: solid 1px black;
+}
+
+#italic-text {
+    font-style: italic;
+}
+
+#tile-holder {
+    text-align: center;
+}
