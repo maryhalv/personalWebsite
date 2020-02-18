@@ -23,8 +23,9 @@ export class SAS extends React.Component {
                  <p>
                    I am currently continuing work on the unmoderated testing tool through refactoring and converting the class
                    components to functional components using React hooks. I have really enjoyed the opportunity
-                   to refactor the complex code that I built up from scratch, because I think that is an important part of
-                   improving my coding skills and I have certainly learned a great deal from it so far.
+                   to refactor the complex code that I built up from scratch. Each week I discover ways in which the code
+                   I pieced together this summer while using the frameworks I was in the process of learning can now be
+                   improved with new additions to those frameworks.
                  </p>
             </div>
             </React.Fragment>

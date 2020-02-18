@@ -7,31 +7,33 @@
 }
 
 #sas-tile {
-        width: 40rem;
+        width: 50%;
         margin: 10% auto auto auto;
         background: white;
         color: black;
         text-align: left;
         padding: 0.5rem 2rem 0.5rem 2rem;
-        border: solid 1px black;
+      /* border: solid 1px black; */
+        border-radius: 5px;
 }
 
 #toch-tile {
-        width: 40rem;
+        width: 50%;
          margin: 10% auto auto auto;
             background: white;
             color: black;
             text-align: left;
             padding: 0.5rem 2rem 0.5rem 2rem;
-            border: solid 1px black;
+            border-radius: 5px;
 }
 
 #d-tile-ex {
     width: 15rem;
     margin: 1rem auto 0 2rem;
-    background: white;
+    background: lightgray;
     color: black;
     display: inline-block;
     padding: 0.5rem 2rem 0.5rem 2rem;
-    border: solid 1px black;
+
+    border-radius: 5px;
 }

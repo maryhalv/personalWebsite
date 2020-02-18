@@ -1,0 +1,38 @@
+
+#projects-container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#project-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#project-tile {
+    width: 15rem;
+    margin: 1rem auto 0 2rem;
+    background: lightgray;
+    color: black;
+    display: inline-block;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+#remember-tile {
+    width: 50%;
+    margin: 10% auto auto auto;
+    background: white;
+    color: black;
+    text-align: left;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+#d-setup-img {
+background-image: url(../images/setup.png);
+width: 15rem;
+height: 15rem;
+background-repeat: no-repeat;
+margin: auto;
+}
