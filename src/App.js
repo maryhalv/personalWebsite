@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './styles/App.css';
 import {Education} from './education.js';
 import {Landing} from './landing.js';
-import {Experience} from './experience.js';
-import {Flowers as ReactComponent} from './flowers.jpg';
+import {Experience} from './experience/experience.js';
+import {Flowers as ReactComponent} from './images/flowers.jpg';
 
 export class App extends React.Component {
     constructor(props) {

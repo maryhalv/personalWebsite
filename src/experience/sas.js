@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/App.css';
 import '../styles/experience.css'
 
-export class SAS extends React.Comesponent {
+export class SAS extends React.Comestponent {
 
     render () {
         return (
