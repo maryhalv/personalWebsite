@@ -1,7 +1,11 @@
 
 #projects-container {
     text-align: center;
-    margin-top: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 #project-title {
@@ -11,7 +15,7 @@
 
 #project-tile {
     width: 15rem;
-    margin: 1rem auto 0 2rem;
+    margin: 0 1rem 0 1rem;
     background: lightgray;
     color: black;
     display: inline-block;
@@ -19,9 +23,14 @@
     border-radius: 5px;
 }
 
+#project-tile:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
 #remember-tile {
     width: 50%;
-    margin: 10% auto auto auto;
+    margin: 0 auto 0 auto;
     background: white;
     color: black;
     text-align: left;
@@ -30,9 +39,17 @@
 }
 
 #d-setup-img {
-background-image: url(../images/setup.png);
-width: 15rem;
-height: 15rem;
-background-repeat: no-repeat;
-margin: auto;
+    background-image: url(../images/setup.png);
+    width: 15rem;
+    height: 15rem;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#d-snippet-img {
+    background-image: url(../images/code_snippet.png);
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 7rem;
+    margin: auto auto 0 auto;
 }

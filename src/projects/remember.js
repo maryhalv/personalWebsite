@@ -26,6 +26,8 @@ export class Remember extends React.Component {
                 I was responsible for the JavaScript
                 functionality of the extension aimed as an aid for those living with memory debilitating diseases.
                 </p>
+                <div id="d-snippet-img">
+                </div>
                 <p>
                 When it came time to turn in our project and to present it to the judges, I was in low spirits because I was not
                 comfortable with the fact that we had turned in our project without all of the functionality that we had originally
@@ -33,7 +35,6 @@ export class Remember extends React.Component {
                 stated future implementations of the tool that would add more functionality and accessibility.
                 We ended up winning second place overall, and made the experience even more rewarding than I had hoped.
                 </p>
-
             </div>
             </React.Fragment>
         );

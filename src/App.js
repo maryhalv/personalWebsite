@@ -39,7 +39,7 @@ export class App extends React.Component {
     return (
         <div id ='d-page'>
             <div id='d-banner'>
-            <h1 class="h-title" onClick={this.renderHome}>Mary Halvorsen</h1>
+            <h1 class="h-title" onClick={this.renderHome}>Mary Halvorsen | UNC Chapel Hill class of 2020</h1>
               <div id='d-navigation' >
                 <button class='b-section' onClick={this.renderEducation}>
                     EDUCATION

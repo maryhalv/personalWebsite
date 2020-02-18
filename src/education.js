@@ -14,18 +14,33 @@ export class Education extends React.Component {
         <React.Fragment>
         <div id="eduction-holder">
         <div id="d-tile-ed">
+                                <p id="ed-title">
+                                    The University of North Carolina at Chapel Hill
+                                </p>
                                 <p>
-                                    The University of North Carolina at Chapel Hill <br></br>
-                                    August 2016-Present <br></br>
-                                    Expected Graduation May 2020 <br></br>
-                                    Bachelor of Science in Computer Science  <br></br>
-                                    Minor in Cognitive Science
+                                August 2016-Present
+                                </p>
+                                <p>
+                                 Expected Graduation May 2020
+                                </p>
+                                <p>
+                                Bachelor of Science in Computer Science
+                                </p>
+                                <p>
+                                Minor in Cognitive Science
+                                </p>
+                                <p>
+                                Chapel Hill, North Carolina
                                 </p>
                  </div>
                  <div id="d-tile-ed">
+                         <p id="ed-title">
+                         Western Guilford High School
+                          </p>
+                          <p>
+                          August 2012-June 2016
+                          </p>
                          <p>
-                         Western Guilford High School <br></br>
-                         August 2012-June 2016 <br></br>
                          Greensboro, North Carolina
                          </p>
                  </div>

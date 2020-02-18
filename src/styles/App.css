@@ -66,10 +66,11 @@ html, body {
 #d-page {
   background-color: #2E1C6D;
   /* need to make extend to the bottom of the page */
-  height:50rem;
+  height: 100%;
   width: 100%;
   z-index: 0;
   position: relative;
+  padding-bottom: 3%;
 }
 
 #d-navigation {
@@ -102,17 +103,19 @@ cursor: pointer;
  background-image: url(../images/headshot.JPG);
  background-repeat: none;
  margin: 4rem auto 0 auto;
-z-index: 2;
-position: relative;
+ z-index: 2;
+ position: relative;
 }
 
 #d-flowers {
   z-index: 1; 
   position: relative;
+   height: 100%;
+  /*margin: 10% auto 10% auto; */
 }
 
 #d-section {
-  margin: 0 auto 0 auto;
+  margin: 5% auto 5% auto;
   width: 100%;
   height: 100%;
   display: flex;
@@ -120,7 +123,9 @@ position: relative;
   background-image: url(../images/flowers.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #2E1C6D;
+  padding-bottom: 5%;
+  padding-top: 5%;
+ /*background-color: #2E1C6D; */
 }
 
 #d-intro {
@@ -135,6 +140,8 @@ position: relative;
   z-index: 2;
   position: relative;
   background-color: lightgray;
+  border-radius: 5px;
+  border: none;
 }
 
 #p-intro {

@@ -22,15 +22,15 @@ export class Experience extends React.Component {
          <h2 id="h-experience">Select a tile to learn more about my experience </h2>
         <div id="tile-holder">
         <div id="d-tile-ex" onClick={this.renderSAS}>
-                        <p>Software Development Intern</p>
+                        <p id="ex-tile">Software Development Intern</p>
                         <p>SAS Institute </p>
-                        <p id="italic-text">Cary, </p><p>NC |</p>
+                        <p>Cary, NC</p>
                         <p> Summer 2019-Present</p>
                     </div>
-                    <div id="d-tile-ex" onClick={this.renderTownOf}>
-                        <p>Technology Solutions Intern</p>
+                    <div id="d-tile-ex-toch" onClick={this.renderTownOf}>
+                        <p id="ex-tile">Technology Solutions Intern</p>
                         <p>Town of Chapel Hill</p>
-                        <p id="italic-text">Chapel Hill, </p><p>NC |</p>
+                        <p >Chapel Hill, NC</p>
                         <p> Summer 2018</p>
                     </div>
         </div>

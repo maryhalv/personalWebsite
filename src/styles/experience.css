@@ -1,5 +1,5 @@
 #h-experience {
-    margin: 4rem auto 2rem auto;
+    margin: 0 auto 2rem auto;
     text-align: center;
     background-color: lightgray;
     border-radius: 5px;
@@ -8,7 +8,7 @@
 
 #sas-tile {
         width: 50%;
-        margin: 10% auto auto auto;
+        margin: auto;
         background: white;
         color: black;
         text-align: left;
@@ -19,7 +19,7 @@
 
 #toch-tile {
         width: 50%;
-         margin: 10% auto auto auto;
+         margin: auto;
             background: white;
             color: black;
             text-align: left;
@@ -27,13 +27,28 @@
             border-radius: 5px;
 }
 
-#d-tile-ex {
+#d-tile-ex, #d-tile-ex-toch {
     width: 15rem;
-    margin: 1rem auto 0 2rem;
     background: lightgray;
     color: black;
     display: inline-block;
     padding: 0.5rem 2rem 0.5rem 2rem;
 
     border-radius: 5px;
+}
+
+#d-tile-ex:hover, #d-tile-ex-toch:hover {
+  background-color: white;
+  cursor: pointer;
+}
+#d-tile-ex {
+ margin: 1rem auto 0 2rem;
+}
+
+#d-tile-ex-toch {
+    margin: 0rem auto 0 2rem;
+}
+#ex-tile {
+    font-size: 1.25rem;
+    font-weight: bold;
 }
